@@ -5,3 +5,4 @@ Slider de colorpower.
 Slider de normal.
 Slider de rim light.
 Slider de desintegrate.
+Slider de Colores.
