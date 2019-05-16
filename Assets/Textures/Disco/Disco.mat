@@ -58,13 +58,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1F15CAF1: -0.2
-    - Vector1_70D0F3E3: -0.91
+    - Vector1_70D0F3E3: -18.48
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Disco_RimPower: 0.39
+    - _Disco_RimPower: -0.12
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -82,10 +82,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_F90DA1EE: {r: 1, g: 0.4921739, b: 0, a: 0}
+    - Color_F90DA1EE: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _Disco_Color: {r: 0, g: 1, b: 0.79215693, a: 0}
+    - _Disco_Color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
 --- !u!114 &6070073651334119057
