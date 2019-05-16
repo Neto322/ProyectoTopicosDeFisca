@@ -19,6 +19,8 @@ public class ScoreRojo : MonoBehaviour
     float score;
     [SerializeField]
     GameObject victory;
+    [SerializeField]
+    ParticleSystem boom;
     float conteo;
     void Start()
     {
@@ -31,34 +33,40 @@ public class ScoreRojo : MonoBehaviour
     {
         if (score == 0)
         {
+            
             zero.SetActive(true);
         }
         if (score == 1)
         {
             zero.SetActive(false);
             one.SetActive(true);
+          
 
         }
         if (score == 2)
         {
             one.SetActive(false);
             two.SetActive(true);
+            
 
         }
         if (score == 3)
         {
             two.SetActive(false);
             three.SetActive(true);
+           
 
         }
         if (score == 4)
         {
             three.SetActive(false);
             four.SetActive(true);
+            
 
         }
         if (score == 5)
         {
+            boom.Play();
             victory.SetActive(true);
             conteo -= Time.deltaTime;
             if (conteo <= 0)
@@ -70,7 +78,7 @@ public class ScoreRojo : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        
+        boom.Play();
         if (collision.gameObject.name == "disco(Clone)")
         {
             score++;

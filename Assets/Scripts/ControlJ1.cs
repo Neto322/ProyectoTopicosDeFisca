@@ -38,8 +38,8 @@ public class ControlJ1 : MonoBehaviour
         }
         if (gamestart == true)
         {
-            RHorizontal = Input.GetAxis("L_XAxis_2");
-            RVertical = Input.GetAxis("L_YAxis_2");
+            RHorizontal = Input.GetAxis("L_XAxis_1");
+            RVertical = Input.GetAxis("L_YAxis_1");
             cords = new Vector3(RHorizontal, 0, RVertical);
             transform.position += new Vector3(RHorizontal, 0, RVertical) * Time.deltaTime * velocidad;
         }
